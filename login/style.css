@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right,#011627,#0e0327,#070327);
+    display: flex;
+    color: white;
+    font-weight: 500;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+main div.social-media{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: relative;
+    left: 240%;
+    top: 23%;
+    gap: 49px;
+}
+main div.socia-media a{
+    text-decoration: none;
+   
+}
+
+
+main div.social-media img{
+   width: 36px;
+}
+main .social-media a:first-child img {
+    margin-left: 0;
+}
+
+h1{
+    position: absolute;
+    left: 21%;
+    top: 13%;
+    font-size: 3em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    left: 13%;
+    top: 25%;
+    margin-left: 150px;
+    padding: 50px;
+    font-size: 2em;
+    border-radius: 50px;
+    gap: 30px;
+}
+form label span{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    right: 30%;
+}
+
+form label input{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fafafa;
+    border: solid white 2px;
+    color: #011627;
+    font-size: .5em;
+    width: 300px;
+    outline: none;
+}
+.senha{
+    position: relative;
+    left: -30%;
+}
+form input[type="submit"]{
+    font-size: 20px;
+    width: 140px;
+    cursor: pointer;
+    margin-top:25px;
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #4b02aa;
+    border: solid white 2px;
+    color: white;
+    transition: 0.3s;
+}
+form input[type="submit"]:hover{
+    background-color: rgb(209, 207, 207);
+    color: #011627;
+}
+section.images {
+    display: flex;
+    align-items: flex-end;
+    
+}
+section img{
+    width:500px;
+    position: relative;
+    left: 220%;
+    bottom: 15%;
+}
+
